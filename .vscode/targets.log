@@ -8,10 +8,12 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jul 15 22:34:05 2022
+# Make data base, printed on Sat Jul 16 23:23:38 2022
 
 # Variables
 
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -37,7 +39,9 @@ GOPATH = C:\Users\hr7te\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_6300_UHTGFFVINSYTEPKU
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17696_ICEOQRZMMZHOVNVQ
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -85,7 +89,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 6300
+VSCODE_PID = 17696
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -135,8 +139,7 @@ LOGONSERVER = \\FIVE
 # environment
 USERNAME = hr7te
 # environment
-COMMONPROGRAMFILES = C:\Program Files ( 
-x86)\Common Files
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # automatic
 ?F = $(notdir $?)
 # environment
@@ -196,13 +199,14 @@ ALLUSERSPROFILE = C:\ProgramData
 # environment
 SESSIONNAME = Console
 # default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+.FEATURES := target-specific order-only second-expans 
+ion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
 PROCESSOR_REVISION = 8c01
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
 # variable set hash-table stats:
-# Load=94/1024=9%, Rehash=0, Collisions=8/121=7%
+# Load=96/1024=9%, Rehash=0, Collisions=9/123=7%
 
 # Pattern-specific Variable Values
 
@@ -210,9 +214,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
 
 # Directories
 
-# . (key d:/Go Pro/Cash, mtime 1657893053): 7 files, no impossibilities.
+# . (key d:/Go Pro/Cash, mtime 1657905135): 8 files, no impossibilities.
 
-# 7 files, no impossibilities in 1 directories.
+# 8 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -274,8 +278,7 @@ sqlc:
 
 postgres:
 #  Phony target (prerequisite of .PHONY).
-#  Implicit rule sea 
-rch has not been done.
+#  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 2):
@@ -302,12 +305,12 @@ createdb:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 17 / storage = 124 B / avg = 7 B
-# current buf: size = 8174 B / used = 124 B / count = 17 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 18 / storage = 129 B / avg = 7 B
+# current buf: size = 8174 B / used = 129 B / count = 18 / avg = 7 B
 
-# strcache performance: lookups = 34 / hit rate = 50%
+# strcache performance: lookups = 35 / hit rate = 48%
 # hash-table stats:
-# Load=17/8192=0%, Rehash=0, Collisions=0/34=0%
-# Finished Make data base on Fri Jul 15 22:34:05 2022
+# Load=18/8192=0%, Rehash=0, Collisions=0/35=0%
+# Finished Make data base on Sat Jul 16 23:23:38 2022
 
  
